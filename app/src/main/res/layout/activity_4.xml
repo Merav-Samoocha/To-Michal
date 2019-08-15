@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+
+android:id="@+id/thebiglayout4"
+    tools:context=".Activity4">
+
+    <Button
+        android:id="@+id/btn4_add_now"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:text="Go to scanner- add a movie"
+        android:textSize="15sp"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:background="@android:color/holo_purple"
+        android:gravity="center_horizontal"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn4_add_now"
+
+
+         />
+
+
+
+</RelativeLayout>

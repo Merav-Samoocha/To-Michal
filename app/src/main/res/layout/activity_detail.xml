@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:text="Movie Title"
+        android:id="@+id/text_view_title_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        />
+    <TextView
+        android:text="Movie Year"
+        android:id="@+id/text_view_year_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        />
+
+    <TextView
+        android:text="Movie genre"
+        android:id="@+id/text_view_genre_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        />
+    <TextView
+        android:text="Movie Rating"
+        android:id="@+id/text_view_rating_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        />
+
+</LinearLayout>
